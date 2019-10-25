@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: io.swagger.api.EmployeesApiControllerIntegrationTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.123 sec <<< FAILURE! - in io.swagger.api.EmployeesApiControllerIntegrationTest
+employeesPostTest(io.swagger.api.EmployeesApiControllerIntegrationTest)  Time elapsed: 0.02 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<501> but was:<200>
+	at io.swagger.api.EmployeesApiControllerIntegrationTest.employeesPostTest(EmployeesApiControllerIntegrationTest.java:44)
+

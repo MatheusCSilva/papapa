@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: io.swagger.api.EmployeesApiControllerTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.724 sec <<< FAILURE! - in io.swagger.api.EmployeesApiControllerTest
+deleteEmployees_givenValidId_employeeIsDeleted(io.swagger.api.EmployeesApiControllerTest)  Time elapsed: 0.011 sec  <<< ERROR!
+java.lang.NullPointerException
+	at io.swagger.api.EmployeesApiControllerTest.deleteEmployees_givenValidId_employeeIsDeleted(EmployeesApiControllerTest.java:67)
+
